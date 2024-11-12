@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="website icon" href="icon.jpeg">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(beuti.jpg);
+            background-size: cover;
+        }
+        .container{
+            left: 50%;
+            top:50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .card{
+            padding: 50px 40px;
+            background: black;
+            border-radius: 10px;
+        }
+        #name{
+            border: none;
+            border-bottom: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            width: 195px;
+            color: green;
+        }
+        #btn{
+            border-radius: 18px;
+            width: 200px;
+            color: rgb(165, 85, 42);
+            padding: 9px 18px;
+            background: darkgray;
+            border: none;
+            margin-top: 20px; 
+        }
+        #btn:hover{
+            background-color: chartreuse;
+            color: black;
+            cursor: pointer;
+        }
+        a{
+            margin-left: 50px;
+            font-size: 15px;
+        }
+        img{
+            width: 50%;
+            margin-left: 25%;
+            margin-top: -11%;
+            margin-bottom: -10%;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="usre.jpeg">
+        <div class="card">
+            <input type="text" placeholder="Username" id="name"> <br> <br>
+            <input type="password" placeholder="Password" id="name"> <br><br>
+            <a href="#">Forgot password?</a> <br>
+            <input type="Submit" value="submit" id="btn"> <br>
+        </div>
+    </div>
+</body>
+</html>
